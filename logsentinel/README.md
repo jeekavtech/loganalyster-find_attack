@@ -1,4 +1,4 @@
-# LogSentinel
+# LogSentinel(By Jeekavtech)
 
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-brightgreen)](https://www.python.org)
