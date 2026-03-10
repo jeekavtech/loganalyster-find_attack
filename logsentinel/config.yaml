@@ -1,0 +1,27 @@
+# LogSentinel configuration
+# Adjust log paths and detection thresholds as needed.
+
+logs:
+  # Default paths on Debian/Ubuntu. Update to match your system.
+  auth: /var/log/auth.log
+  syslog: /var/log/syslog
+  nginx: /var/log/nginx/access.log
+  # Example sample file in this repository for testing:
+  # sample_auth: logs/sample_auth.log
+
+scan:
+  # When scanning, only consider events within this many minutes from now.
+  lookback_minutes: 60
+
+  # Brute-force detection settings
+  brute_force_threshold: 5
+  brute_force_window_minutes: 5
+
+  # Abnormal login time window (inclusive). Default: 00:00 - 05:00.
+  abnormal_hour_start: 0
+  abnormal_hour_end: 5
+
+storage:
+  events: data/events.json
+  alerts: data/alerts.json
+  reports: reports/daily_report.json

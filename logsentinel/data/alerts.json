@@ -1,0 +1,51 @@
+[
+  {
+    "attack_type": "repeated_failed_logins",
+    "ip": "203.0.113.5",
+    "attempts": 2,
+    "timestamp": "2026-03-10T00:12:05",
+    "details": "Repeated failed SSH login attempts detected"
+  },
+  {
+    "attack_type": "repeated_failed_logins",
+    "ip": "203.0.113.5",
+    "attempts": 3,
+    "timestamp": "2026-03-10T00:12:08",
+    "details": "Repeated failed SSH login attempts detected"
+  },
+  {
+    "attack_type": "repeated_failed_logins",
+    "ip": "203.0.113.5",
+    "attempts": 4,
+    "timestamp": "2026-03-10T00:12:11",
+    "details": "Repeated failed SSH login attempts detected"
+  },
+  {
+    "attack_type": "brute_force",
+    "ip": "203.0.113.5",
+    "attempts": 5,
+    "timestamp": "2026-03-10T00:12:14",
+    "details": "5 failed SSH logins within 5 minutes"
+  },
+  {
+    "attack_type": "repeated_failed_logins",
+    "ip": "203.0.113.5",
+    "attempts": 5,
+    "timestamp": "2026-03-10T00:12:14",
+    "details": "Repeated failed SSH login attempts detected"
+  },
+  {
+    "attack_type": "abnormal_login_time",
+    "ip": "203.0.113.5",
+    "attempts": 1,
+    "timestamp": "2026-03-10T03:15:02",
+    "details": "Login at abnormal hour (03)"
+  },
+  {
+    "attack_type": "suspicious_success_after_failures",
+    "ip": "203.0.113.5",
+    "attempts": 5,
+    "timestamp": "2026-03-10T03:15:02",
+    "details": "Successful login after recent failures"
+  }
+]

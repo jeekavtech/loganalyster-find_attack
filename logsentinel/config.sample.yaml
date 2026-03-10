@@ -1,0 +1,18 @@
+# Sample configuration for running against the included sample log.
+
+logs:
+  auth: logs/sample_auth.log
+  syslog: logs/sample_auth.log
+  nginx: logs/sample_auth.log
+
+scan:
+  lookback_minutes: 60
+  brute_force_threshold: 5
+  brute_force_window_minutes: 5
+  abnormal_hour_start: 0
+  abnormal_hour_end: 5
+
+storage:
+  events: data/events.json
+  alerts: data/alerts.json
+  reports: reports/daily_report.json

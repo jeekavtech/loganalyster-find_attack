@@ -1,0 +1,11 @@
+{
+  "alert_count": 7,
+  "alerts_by_type": {
+    "abnormal_login_time": 1,
+    "brute_force": 1,
+    "repeated_failed_logins": 4,
+    "suspicious_success_after_failures": 1
+  },
+  "event_count": 6,
+  "generated_at": "2026-03-10T11:34:23.627008Z"
+}
